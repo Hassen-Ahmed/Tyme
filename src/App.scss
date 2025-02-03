@@ -23,7 +23,7 @@
     background-color: #4caf50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 0.5rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -51,5 +51,12 @@
   span {
     color: #f39142;
     font-size: 4rem;
+  }
+}
+
+table {
+  input {
+    max-width: 10rem;
+    width: auto;
   }
 }
