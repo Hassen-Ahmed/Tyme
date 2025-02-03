@@ -1,0 +1,55 @@
+.tyme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.tyme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 2rem;
+  width: 100%;
+}
+
+.btn {
+  &__add {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  &__delete {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 1rem;
+    text-align: center;
+    text-decoration: none;
+    // display: inline-block;
+    // font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+}
+
+.total-work-hours {
+  margin: 2rem 0;
+
+  span {
+    color: #f39142;
+    font-size: 4rem;
+  }
+}
