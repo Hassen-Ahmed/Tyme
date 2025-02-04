@@ -103,9 +103,7 @@ const App: React.FC = () => {
     <div className="tyme-container">
       <div className="tyme">
         <h1>Tyme - Work Hours</h1>
-        <button onClick={handleAddEntry} className="btn__add">
-          Add Entry
-        </button>
+
         <table>
           <thead>
             <tr>
@@ -159,6 +157,9 @@ const App: React.FC = () => {
             ))}
           </tbody>
         </table>
+        <button onClick={handleAddEntry} className="btn__add">
+          Add Entry
+        </button>
         <h2 className="total-work-hours">
           Total Work Hours: <span>{sumTotalWorkHours(entries)}</span>
         </h2>
